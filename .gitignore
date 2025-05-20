@@ -1,0 +1,16 @@
+# Alles ignorieren
+*
+
+# .gitignore selbst nicht ignorieren
+!.gitignore
+
+# Ordner Assets freigeben
+!Assets/
+
+# Unterordner freigeben
+!Assets/Editor/
+!Assets/Scripts/
+
+# Alle Dateien und Ordner in den freigegebenen Ordnern ebenfalls freigeben
+!Assets/Editor/**
+!Assets/Scripts/**
